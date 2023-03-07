@@ -5,6 +5,7 @@ import { FormsRoutingModule } from './forms-routing.module';
 import { LayoutComponent } from './layout/layout.component';
 import { Basicform1Component } from './pages/basicform1/basicform1.component';
 import { BasicformComponent } from './pages/basicform1/components/basicform/basicform.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { BasicformComponent } from './pages/basicform1/components/basicform/basi
   ],
   imports: [
     CommonModule,
-    FormsRoutingModule
+    FormsRoutingModule,
+    ReactiveFormsModule
   ]
 })
 export class FormsModule { }

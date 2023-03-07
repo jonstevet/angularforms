@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { BasicformComponent } from './components/basicform/basicform.component';
 
 @Component({
   selector: 'app-basicform1',
